@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="./verticalLinePlugin.js"></script>
+    <script src="./script.js"></script>
+</head>
+<body>
+    <h1>Split CSV Tool</h1>
+    <div>Drag and drop files into the chart area.</div>
+    <canvas id="csv-chart"></canvas>
+    
+    <div class="input-row">
+        <input id="packaged-one-file" name="pack-one-file" type="checkbox" checked>
+        <label for="packaged-one-file">Packaged in a single file</label>
+    </div>
+    <div class="input-row">
+        <button id="download-button" disabled>Download</button>
+    </div>
+</body>
+</html>
